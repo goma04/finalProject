@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="/style/mainDesign.css">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="/style/navbar.css" rel="stylesheet">
+    <link href="/style/rules.css" rel="stylesheet">
+    <link href="/style/moderator.css" rel="stylesheet">
 
-<body id="mainBody">
-
+<body>
     <table class="navbar">
         <tr>
             <td id="logo">
@@ -30,7 +32,7 @@
 
     <div class="mainText">
         <h1>Szia! Ez itt a </h1>
-        
+
         <img id="titleDesignImg" src="/images/—Pngtree—vector stylish web design elements_1386697.png" alt="">
         <h2>Magyar Fortnite Közösség</h2>
         <h1>hivatalos weboldala</h1>
@@ -96,7 +98,7 @@
                 </span>
             </div>
             <div class="box Eight">
-                <p class="boxTitle"> 
+                <p class="boxTitle">
                     Ne adj fel hirdetést</p>
                 <span class="boxText">
 
@@ -130,12 +132,41 @@
 
         <div class="moderatorForm">
             <form>
-                <label for="fname">Teljes név:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname">
+
+                <label for="name">Teljes név:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="ign">Fortnite IGN:</label><br>
+                <input type="text" id="ign" name="ign"><br>
+                <label for="about">Néhány szó magadról:</label><br>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea><br>
+                <label for="season">Melyik seasonben kezdted a játékot?</label><br>
+
+                <select name="season">
+                    <optgroup style="font-family:verdana">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5</option>
+                        <option value="3">6</option>
+                        <option value="3">7</option>
+                        <option value="3">8</option>
+                        <option value="3">9</option>
+                        <option value="3">10</option>
+                        <option value="3">ch2 1</option>
+                        <option value="3">ch2 2</option>
+                        <option value="3">ch2 3</option>
+                        <option value="3">ch2 4</option>
+                    </optgroup>
+                </select>
+
+                <br>
+                <button type="submit">Küldés</button>
             </form>
         </div>
+      
+    </div>
+
 
 
 
