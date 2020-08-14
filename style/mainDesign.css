@@ -7,6 +7,7 @@
 html{
     scroll-behavior: smooth;     
     background: linear-gradient(#f87373, #85F7F7);
+    background-color: khaki;
 }
 
 body::-webkit-scrollbar {
@@ -99,6 +100,22 @@ body::-webkit-scrollbar {
     opacity: 40%;
     transition: opacity 1s, color 1s;
     cursor: default;
+}
+
+.bottomDiv{
+    background-color: cornsilk;
+    height: 50px;
+    white-space: pre;
+    text-align-last: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottomDiv a{
+    background-color: cornsilk;
+    height: 50px;
+    white-space: pre;
+    text-align-last: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
