@@ -72,8 +72,6 @@ function navbarSettings() {
 
         submitBtn.style.opacity = "0";
         submitBtn.style.width = "10px";
-
-
     }
 
 
