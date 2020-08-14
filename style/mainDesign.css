@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
     position: static;
     top: 30%;
     width: 90%;
-    text-align: center;
+    
     margin: 0 auto;
     margin-top: 70px;
 }
@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
 
 .mainText h2:hover{
     color: #57f58c;    
-    
+    cursor: context-menu;
     transform: scale(1.5);
 
     word-spacing: 10px;
@@ -59,7 +59,8 @@ body::-webkit-scrollbar {
 .mainText .smallText{
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
-    margin-top: 30px;    
+    margin-top: 30px; 
+    margin-bottom: 30px;   
     border-left: solid rgb(180, 179, 179);
     border-width: 18px;
     box-shadow: rgb(56, 58, 58) -3px 0px;
@@ -79,8 +80,28 @@ body::-webkit-scrollbar {
 .mainText .subTitle{
     text-align: left;
     font-size: 30px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
+
+.title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.verticalText{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    left: 13%;
+    top: 1200px;
+    height: 1400px;
+    font-size: 72px;
+    opacity: 40%;
+    transition: opacity 1s, color 1s;
+    cursor: default;
+}
+
+
 
 
 

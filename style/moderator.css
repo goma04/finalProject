@@ -1,16 +1,14 @@
 
 .moderatorForm{
-    margin: 60px;
+    margin: 0 auto;
+    margin-bottom: 40px;
     width: 20%;
-    display: inline-block;
-    border:  red ;
-    text-align: left;
+    border:  red;
     padding: 20px;
     background-color: rgb(187, 164, 164);
     border-left: solid red;
     transition: opacity 2s linear;
 }
-    
 
 
 .moderatorForm input{
@@ -66,9 +64,15 @@ button[type="submit"]:hover{
     transform: rotate(20deg);
     transform: scale(1.2);
     cursor: pointer;
+    
 }
 
 select{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#moderatorText{
+    padding-left: 30px;
+    font-style: italic;
 }
 
